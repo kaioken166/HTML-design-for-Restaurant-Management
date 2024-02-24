@@ -1,0 +1,9 @@
+#332941 - Black
+#3B3486 - Blue (in đậm)
+#864AF9 - Light purple (dùng trong nút phụ, ...)
+#F8E559 - Yellow (điểm các UI quan trọng)
+
+rgb(51, 41, 65)
+rgb(59, 52, 134)
+rgb(134, 74, 249)
+rgb(248, 229, 89)
