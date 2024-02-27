@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            background-color: #eeeeee;
+        }
+    </style>
+    <title>History detail</title>
+</head>
+
+<body>
+    <div class="container bg-white rounded border border-opacity-10 p-3 mt-3">
+
+        <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Click here </button>
+
+        <!-- Vertically centered scrollable modal -->
+        
+        <div class="modal modal-lg fade " id="exampleModal">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Lịch sử cập nhật thông tin</h5>
+
+                        
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1"><i class="bi bi-search"></i></span>
+                            <input type="text" class="form-control shadow-sm" placeholder="Tìm kiếm"
+                                aria-label="search">
+                        </div>
+
+                        <table class="table table-hover">
+                            <thead class="table-light">
+                                <tr>
+                                    <th scope="col">Nội dung cập nhật</th>
+                                    <th scope="col">Ngày cập nhật</th>
+                                    <th scope="col">Ghi chú</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+
+                                    <td>Họ và tên</td>
+                                    <td>2024-02-27 22:31</td>
+                                    <td>Duyệt yêu cầu thay đổi</td>
+
+                                </tr>
+                                
+                                <tr>
+
+                                    <td>Năm sinh</td>
+                                    <td>2024-02-20 12:57</td>
+                                    <td></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>Địa chỉ</td>
+                                    <td>2024-02-19 12:57</td>
+                                    <td></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>Họ và tên</td>
+                                    <td>2024-02-19 12:57</td>
+                                    <td>Tạo mới</td>
+
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
